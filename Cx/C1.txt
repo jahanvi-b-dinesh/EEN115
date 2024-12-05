@@ -1,0 +1,33 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+
+\question Which of the following indicate appropriate uses of GAI in academic writing?
+
+\begin{choices}
+
+  \choice Verifying complex mathematical concepts
+	% MOTIVATION : It is never a good idea to use GAI to verify Mathematical equations because it is flawed and will not alwsys give the right solution
+
+  \correctchoice Clarifying complex theoretical concepts
+	% MOTIVATION : GAI can clarify complex theoretical concepts and unclear information in texts.
+
+  \correctchoice Aiding with initial comprehension
+	% MOTIVATION : We can use GAI-generated summaries to get a quick overview of key concepts, but we need to be mindfull of its biases.  
+
+  \choice Aiding with references for literature review
+	% MOTIVATION : It is not a good idea to use GAI for literature review because there is a possibility of it suggesting work that doesn't even exist.
+ 
+\end{choices}

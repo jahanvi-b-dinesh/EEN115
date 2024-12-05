@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are true about Network Slicing?
+
+\begin{choices}
+
+  \choice Network slicing allows provisioning of several slices over different 5G infrastructures.
+	% MOTIVATION : Network slicing allows provisioning of several slices over the same 5G infrastructure
+
+  \correctchoice Different use cases can be mapped to the same Network Slice Type.
+	% MOTIVATION : This is the right choice
+
+  \correctchoice A network slicer is required for the management and operation of slices and virtual functions
+	% MOTIVATION : This si the right choice
+
+  \choice We need a new network slice for each domain(eg: Radio, transport, cloud)
+	% MOTIVATION : A single slice can span multiple domains
+
+\end{choices}

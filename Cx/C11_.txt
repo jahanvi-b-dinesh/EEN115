@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are signs of a good presentation?
+
+\begin{choices}
+
+  \choice Having atleast 2 images per slide
+	% MOTIVATION : That might be disttacting for the audience and they may not be able to focus on what the speaker is saying
+
+  \choice Speakers should have a script of everything they plan to say so as to not forget anything.
+	% MOTIVATION : Speakers should have only key words at the most. A script makes them too dependent on their notes.
+
+  \choice Each group member should individually work on different parts of the presentation without interfering in the other teamembers sections.
+	% MOTIVATION : While it is good to divide tasks, everyone should be familiar with every aspect of the presentation.
+
+  \correctchoice It is good to start the presentation with an anecdote.
+	% MOTIVATION : That's a good way to to grab the audience's attention.
+
+\end{choices}

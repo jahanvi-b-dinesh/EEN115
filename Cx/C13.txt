@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are use cases of Hexa-X-II?
+
+\begin{choices}
+
+  \correctchoice Wireless In-Vehicle NetworkNetwork
+	% MOTIVATION :This is part of having a human-centric network 
+
+  \choice Time to market reduction
+	% MOTIVATION : This isn't a valid use case.
+
+  \correctchoice Earth Monitor, Sustainable Food Production
+	% MOTIVATION : This is part of having a Ubiquitous Network
+
+  \correctchoice Immersive Education
+	% MOTIVATION : This is part of having Seamless Immersive Reality
+
+\end{choices}

@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are NOT part of METIS overall Technical Goals?
+
+\begin{choices}
+
+  \correctchoice 100 times higher battery life for low power MMC devices
+	% MOTIVATION : It's not 100 times, it's 10 time higher battery life. So this is the right option.
+
+  \choice 10 to 100 times higher number of connected devices
+	% MOTIVATION : This is correct. Hence not the righ option.
+
+  \correctchoice 10 times reduced End-to-End Latency
+	% MOTIVATION : it is only 5 times reduced E2E latency, not 10. Hence, it is the right answer.
+
+  \choice 10 to 100 time higher typical user data rates 
+	% MOTIVATION : this is correct, Hence, not the right answer. 
+
+\end{choices}

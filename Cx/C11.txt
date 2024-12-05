@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are part of the future goals for spectrum usage?
+
+\begin{choices}
+
+  \choice Reduce licensing costs
+	% MOTIVATION : This is not a goal for spectrum usage with 6G
+
+  \correctchoice Provide indoor coverage
+	% MOTIVATION : new high data rate applications like mobile AR/VR communication and gaming are expected to also be used indoors, increasing the volumes of indoor mobile data
+
+  \correctchoice Support mobility
+	% MOTIVATION : Spectrum is needed that can combine high data rates and the continuous coverage that is required for mobility.
+
+  \correctchoice Provide additional capacity
+	% MOTIVATION : Ideally the spectrum to be made available will be enough using the existing grid of base stations, reducing the cost of identifying, acquiring and deploying additional base station sites by operators
+
+\end{choices}

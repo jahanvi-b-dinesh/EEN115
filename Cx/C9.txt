@@ -1,0 +1,33 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are requirements for Earth observation satellites in low earth orbits?
+
+\begin{choices}
+
+  \choice Low Angular rate for ground station
+	% MOTIVATION : This is wrong because this is the condition for "Deep space" satelites 
+
+  \choice Large coverage and long connection time
+	% MOTIVATION : This is wrong because this is the condition for "Deep space" satelites  
+
+  \correctchoice High angular rate for ground station
+	% MOTIVATION : This is correct for Earth obseration satellites in low earth orbit
+
+  \correctchoice small coverage area and short connection time
+	% MOTIVATION : this is correct for Earth obseration satellites in low earth orbit
+
+
+\end{choices}

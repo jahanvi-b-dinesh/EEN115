@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are use cases of 5GCAR?
+
+\begin{choices}
+
+  \correctchoice Extend local perception with sensor data shared by surrounding vehicles
+	% MOTIVATION : In order to have effective communication between all vehicles on the road and maintain road safety and prevent accidents
+
+  \correctchoice Interact with other vulnerable road users
+	% MOTIVATION : To detect the presence of pedestrians, cyclists and other VRUs 
+
+  \correctchoice Remotelycontrol and monitor via the cloud in critical situations
+	% MOTIVATION : To manage traffic flow in case of an accident or obstacle on the road
+
+  \choice Enhance vehicle users streaming capability and promote a smooth and fun journey
+	% MOTIVATION : Entertainment isn't a priority. Hence it is the wrong option.
+
+\end{choices}

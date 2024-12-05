@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Which of the following is/are use case scenarios from the ITU wheel diagram?
+
+\begin{choices}
+
+  \correctchoice Ubiquitous Conectivity
+	% MOTIVATION : This is the correct option
+
+  \choice Low reliability and hyper latency communication
+	% MOTIVATION : Hyper reliability and low latency communication is the right answer. 
+
+  \correctchoice Integrated sensing and communication
+	% MOTIVATION : This is the correct option
+
+  \correctchoice AI and Communication
+	% MOTIVATION : This is the right option
+
+\end{choices}

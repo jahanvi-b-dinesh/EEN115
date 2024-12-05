@@ -1,0 +1,37 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+
+\question Select the right option with respect to fading and it's effects: 
+
+\begin{choices}
+
+  \choice Flat Fading (Has Doppler effect) and Frequency Selective (No Doppler effect)  & Slow fading (has ISI) and Fast Fading (No ISI)
+	% MOTIVATION : Flat and Frequency Selective Fading depends on delay spread and delay spread affetcs ISI. Similarly, Slow and Fast Fading depends on coherence time and coherence time causes the doppler effect.
+
+  \choice Flat Fading (Has ISI) and Frequency Selective (No ISI)  & Slow fading (Has Doppler effect) and Fast Fading (No Doppler effect)
+	% MOTIVATION : This is the opposite of the right option. Symbol time >> Delay spread implies fast fading. Symbol time << delay spread implies frequency selective. Symbol Time << Coherence time implies implies slow fading. Symbol time >> Coherence time implies fast fading.
+
+  \choice Flat Fading (No Doppler effect) and Frequency Selective ( Has Doppler effect)  & Slow fading (No ISI) and Fast Fading (has ISI)
+	% MOTIVATION : Flat and Frequency Selective Fading depends on delay spread and delay spread affetcs ISI. Similarly, Slow and Fast Fading depends on coherence time and coherence time causes the doppler effect.
+
+  \correctchoice Flat Fading (No ISI) and Frequency Selective (has ISI)  & Slow fading (No Doppler effect) and Fast Fading (Has Doppler effect)
+	% MOTIVATION : This is the right relation. Symbol time >> Delay spread implies fast fading => There is no ISI. Symbol time << delay spread implies frequency selective => There is ISI. Symbol Time << Coherence time implies implies slow fading. Symbol time >> Coherence time implies fast fading.
+ 
+\end{choices}
+
+
+
+

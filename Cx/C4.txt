@@ -1,0 +1,32 @@
+
+% You need to provide a quiz question with four multiple choice answers.
+% There should be at least one correct answer among the choices.
+% More than one correct answers are permitted.
+% For correct answers you should begin with \correctchoice and others with \choice.
+% The answers should be motivated very well by explaining  why an option is correct or wrong.
+
+% Below we have provided an example question with two correct answers appropriately motivated.
+% Please edit the text in the example,
+%    mark the correct answer,
+%    write the motivation,
+%    save this file,
+%    and submit back to pingpong.
+% No need to compile the file.
+
+\question Where is scheduling done?
+
+\begin{choices}
+
+  \choice Core Network
+	% MOTIVATION : It doesn't happen in the core network. It needs to happen as close to the UE as possible. 
+
+  \correctchoice Base Station
+	% MOTIVATION : It needs to happen as close to the UE as possible
+
+  \choice UE
+	% MOTIVATION : It can't be done on our own devices. 
+
+  \choice Any of the above
+	% MOTIVATION : It is only done in the Base station
+
+\end{choices}
